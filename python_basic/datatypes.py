@@ -127,5 +127,4 @@ data = {
 skills_list = list(data["users"][1]["skills"]) 
 skills_list.append("Docker")
 data["users"][1]["skills"] = tuple(skills_list)
-data["users"][1]["skills"] = skills_list
 print(data["users"][1])
