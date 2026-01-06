@@ -160,11 +160,13 @@
 
 # Print True or False
 
+# # 
+# marks = int(input("Enter marks: "))
+# attendance_percentage = float(input("attendance percentage: "))
 
-marks = int(input("Enter marks: "))
-attendance_percentage = float(input("attendance percentage: "))
+# if marks >= 35 and (attendance_percentage >= 75 or marks > 90):
+#     print("True")
+# else:
+    # print("False")
 
-if marks >= 35 and (attendance_percentage >= 75 or marks > 90):
-    print("True")
-else:
-    print("False")
+

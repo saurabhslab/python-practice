@@ -37,36 +37,29 @@
 #     return a + b
 
 # print(add(3, 2))
+ 
 
-# 3️⃣ Decorator That Logs Function Name
-# Concepts: func.__name__, wrapper basics
-# Task:
-# Create a decorator log_name that prints:
-# "You called <function_name>"
-# every time the function is executed.
+# def log_name(func):
+#     def wrapper(*args, **kwargs):
+#         func()
+#         result = func.__name__
+#         return f"you called {result}"
+#     return wrapper
 
-def log_name(func):
-    def wrapper(*args, **kwargs):
-        func()
-        result = func.__name__
-        return f"you called {result}"
-    return wrapper
+# @log_name
+# def example():
+#     return "This is the name of the function"
 
-@log_name
-def example():
-    return "This is the name of the function"
+# print(example())
 
-print(example())
 # **4️⃣ Decorator That Works With *args and kwargs
-
-
 # Concepts: Argument forwarding
 # Task:
 # Create a decorator debug that prints all positional and keyword arguments passed to the function.
-
 # Example:
 # add(4, 5, x=10)
 # should print the args & kwargs.
+
 
 # 5️⃣ Decorator That Measures Execution Time
 

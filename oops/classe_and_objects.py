@@ -47,53 +47,42 @@
 # method area() → return area
 # method perimeter() → return perimeters
 # Make 2 rectangles and print area of each.
-class Rectangle:
-    def __init__(self, length, width):
-        self.length = length
-        self.width = width
-        pass
-    def area(self):
-        area_rectangle = self.length * self.width
-        return area_rectangle
-    def perimeter(self):
-        return self.length, self.width
+# class Rectangle:
+#     def __init__(self, length, width):
+#         self.length = length
+#         self.width = width
+#         pass
+#     def area(self):
+#         area_rectangle = self.length * self.width
+#         return area_rectangle
+#     def perimeter(self):
+#         return self.length, self.width
     
-R1 = Rectangle(43, 23)
-R2 = Rectangle(100, 20)
-
-print(R1.area())
-print(R2.area())
+# R1 = Rectangle(43, 23)
+# R2 = Rectangle(100, 20)
+# print(R1.area())
+# print(R2.area())
 
 # 4️⃣ Modify Attribute Values Through Methods
-
 # Concepts: setters (not private yet)
 # Problem:
 # Class BankAccount:
-
 # attributes: owner, balance
-
 # method: deposit(amount)
-
 # method: withdraw(amount)
-
 # Create an object and test both functions.
 
 # 🟠 Level 3 — Class Variables & Static Methods
 # 5️⃣ Class Variable + Instance Counter
-
 # Concepts: class variable, counting objects
 # Problem:
 # Create class Employee:
-
 # instance vars: name, salary
-
 # class var: count → total employees
-
 # increment count in constructor
-
 # method to display employee info
-
 # class method to show total count
+
 
 # 6️⃣ Static Method for Utility Function
 
