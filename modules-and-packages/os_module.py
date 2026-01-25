@@ -16,20 +16,21 @@ import os
 #    Given a path, check whether it exists.
 #    If it exists, tell whether it is a **file** or a **directory**.
 
-path = "/desktop/python-practice"
+# path = "/desktop/python-practice"
 
-if os.path.exists(path):
-    if os.path.isfile(path):
-        print("It is a file")
-    elif os.path.isdir(path):
-        print("It is a directory")
-else:
-    print("Path does not exist")
+# if os.path.exists(path):
+#     if os.path.isfile(path):
+#         print("It is a file")
+#     elif os.path.isdir(path):
+#         print("It is a directory")
+# else:
+#     print("Path does not exist")
 
 
 # 4. **Create Directory Safely**
 #    Create a directory named `logs`.
 #    The program should **not crash** if the directory already exists.
+
 
 # 5. **Join Paths Correctly**
 #    Join the directory `/home/user` with the filename `data.txt` in an OS-independent way.
