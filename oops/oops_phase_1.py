@@ -39,16 +39,21 @@
 # user_1.greet()
 
 # Challenge: Ensure you use self.username inside the method so it accesses the specific instance's data.
+# ---------------------  
+class Circle: 
+    pi = 3.14159
+    def __init__(self,r):
+        self.r = r
+    
 
-# Problem 4: Class vs. Instance Attributes
-# Create a Circle class.
+circle_1 = Circle(23)
+circle_2 = Circle(34)
 
-# Define a class attribute pi = 3.14159.
+print(circle_1.r)
+print(circle_2.r)
 
-# Define an instance attribute radius via __init__.
 
-# Create two circles with different radii and show that they both can access the same pi value.
-
+# -----------------------
 # Problem 5: The Modifier
 # Create a Smartphone class with brand and battery_level (defaulting to 100). Add a method use_app(amount) that subtracts the amount from the battery_level. Print the battery level before and after using an app.
 
