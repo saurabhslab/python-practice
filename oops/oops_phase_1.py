@@ -27,16 +27,16 @@
 # Problem 3: The "Self" Talk
 # Create a User class with a username. Add a method called greet that prints "Hello, my name is [username]!".
 
-class User:
-    def __init__(self, username, ):
-        self.username = username
+# class User:
+#     def __init__(self, username: str):
+#         self.username = username
     
-    def greet(self):
-        print(f"Hello, my name is {self.username}.")
+#     def greet(self):
+#         print(f"Hello, my name is {self.username}.")
 
-user_1 = User("Saurabh")
+# user_1 = User("Saurabh")
 
-user_1.greet()
+# user_1.greet()
 
 # Challenge: Ensure you use self.username inside the method so it accesses the specific instance's data.
 

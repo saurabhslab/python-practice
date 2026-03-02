@@ -7,8 +7,6 @@
 # def calculate_area(radius: float) -> float:
 #     math.pi * radius ** 2
 
-
-
 # 2. List and Dictionary Basics 
 # Annotate a function get_usernames that takes a list of integers (user IDs) and returns a list of strings (usernames).
 # Goal: Use list[int] and list[str] (Python 3.9+) or List from the typing module.
@@ -18,7 +16,7 @@
 # 3. Optional Values Create a function format_greeting that takes a name (string) and an optional title (string). If title is not provided, it defaults to None.
 
 def format_greeting(name: str, title: str | None = None) -> str:
-    return f"Hello {title} {name}" if title else f"Hello {name}"
+    # return f"Hello {title} {name}" if title else f"Hello {name}"
 
 # Goal: Use Optional[str] or str | None.
 
