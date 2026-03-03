@@ -19,7 +19,7 @@ car_2 = Class("Mahindra", "Scorpio N", 2023)
 car_1.display_info()
 car_2.display_info() 
 """
-
+# ________
 
 """2. Instance vs Class Variables
 Create a class Student:
@@ -39,11 +39,13 @@ print(student_1.name)
 print(student_1.roll_no)
 print(Student.school_name)"""
 
+
+# ______
 """4. Simple Method Logic
 Create a class BankAccount:
 attributes: account_holder, balance
 methods: deposit(amount), withdraw(amount)
-Prevent withdrawal if balance is insufficient."""
+Prevent withdrawal if balance is insufficient.
 
 class BankAccount:
     def __init__(self, account_holder, balance = 0):
@@ -67,6 +69,54 @@ print(person_1.balance)
 person_1.withdraw(91)
 
 print(person_1.balance)
+"""
+# ––––––--------
+"""5. Encapsulation (Private Variables)
+Create a class Employee:
+private variable: __salary
+methods: get_salary(), set_salary(amount)
+Try accessing __salary directly and observe what happens."""
+
+"""
+class Employee:
+    def __init__(self, salary):
+        # Private variable
+        self.__salary = salary
+
+    # Getter method
+    def get_salary(self):
+        return self.__salary
+
+    # Setter method
+    def set_salary(self, amount):
+        if amount > 0:
+            self.__salary = amount
+        else:
+            print("Invalid salary amount")
+
+# Create an Employee object
+emp = Employee(50000)
+
+# Accessing via getter
+print("Salary (via getter):", emp.get_salary())
+
+# Updating via setter
+emp.set_salary(60000)
+print("Updated Salary (via getter):", emp.get_salary())
+
+# Trying to access directly
+print(emp.__salary)   # ❌ This will raise an AttributeError
+
+"""
 
 
 
+# ––––––––––––––––--------------
+"""Inheritance Basics
+Create:
+class Animal with method speak()
+subclasses Dog and Cat that override speak()"""
+
+
+
+ 

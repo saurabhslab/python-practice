@@ -53,29 +53,3 @@ print(circle_1.r)
 print(circle_2.r)
 
 
-# -----------------------
-# Problem 5: The Modifier
-# Create a Smartphone class with brand and battery_level (defaulting to 100). Add a method use_app(amount) that subtracts the amount from the battery_level. Print the battery level before and after using an app.
-
-# Problem 6: Counting Instances
-# Create a Robot class. Add a class attribute population set to 0. Every time a new Robot is created (in __init__), increment population by 1. Create three robots and print Robot.population.
-
-# Problem 7: String Representation (Intro)
-# Create a Car class with make and model. Inside the class, create a method called description that returns a formatted string like "This car is a 2023 Tesla".
-
-# Problem 8: The Dynamic Attribute
-# Create a Product class with name and price. Create an instance. After the instance is created, try adding a new attribute called discount directly to that specific object (e.g., item1.discount = 0.2). Print it to show that Python allows dynamic attribute assignment.
-
-# Problem 9: Data Validation
-# Create a BankAccount class with balance. In the __init__ method, add a check: if the starting balance is negative, set it to 0 and print a warning message. Test this by trying to create an account with -500 dollars.
-
-# Problem 10: The Mini-System
-# Create a Student class.
-
-# Attributes: name, grades (a list).
-
-# Method: add_grade(grade) to append a new grade to the list.
-
-# Method: get_average() to return the mean of the grades.
-
-# Task: Create "Alex," add grades 85, 90, and 78, then print their average.
