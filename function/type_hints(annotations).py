@@ -56,3 +56,5 @@ def format_greeting(name: str, title: str | None = None) -> str:
 # 10. Literal Types Annotate a function adjust_volume that takes a current volume (int) and a direction. The direction must be strictly either the string "UP" or the string "DOWN".
 
 # Goal: Use Literal["UP", "DOWN"].
+
+#

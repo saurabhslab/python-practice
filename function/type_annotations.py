@@ -117,7 +117,7 @@ name → str
 price → float
 stock → int """
 
-from typing import TypedDict
+"""from typing import TypedDict
 
 class Product(TypedDict):
     name: str
@@ -128,7 +128,7 @@ product: Product = {
     "name": "Laptop",
     "price": 79999.99,
     "stock": 10
-}
+}"""
 
 """Question 12
 Write a function:
@@ -138,7 +138,61 @@ parameter → Product
 increase stock by 1
 return updated Product"""
 
-def increase_stock(product: Product) -> Product:
+"""def increase_stock(product: Product) -> Product:
     product["stock"] += 1
-    return product
+    return product"""
+
+"""Question 13
+Write a function:
+apply_discount(product)
+Requirements:
+parameter → Product
+decrease price by 10
+return updated Product"""
+
+"""def apply_discount(product: Product) -> Product:
+    product['price'] -= 10
+    return product"""
+
+"""Question 14
+Create a TypedDict called:
+Order
+Fields:
+order_id → int
+items → list[str]
+total_price → float"""
+
+"""from typing import TypedDict
+
+class Order(TypedDict):
+    order_id: int
+    items: list[str]
+    total_price: float"""
+
+"""Question 16
+
+Create a TypedDict called:
+
+ChatState
+
+Fields:
+
+user_input → str
+messages → list[str]
+response → str"""
+
+"""from typing import TypedDict
+
+class ChatState(TypedDict):
+    user_input: str
+    messages: list[str]
+    response: str
+
+chat: ChatState = {
+    "user_input": "Hello, how are you?",
+    "messages": ["Hi!", "I'm good, thanks."],
+    "response": "I'm doing well, how about you?"
+}
+"""
+
 

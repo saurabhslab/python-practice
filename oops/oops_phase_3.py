@@ -110,13 +110,3 @@ print(emp.__salary)   # ❌ This will raise an AttributeError
 """
 
 
-
-# ––––––––––––––––--------------
-"""Inheritance Basics
-Create:
-class Animal with method speak()
-subclasses Dog and Cat that override speak()"""
-
-
-
- 
