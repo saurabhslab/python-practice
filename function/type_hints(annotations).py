@@ -57,4 +57,3 @@ def format_greeting(name: str, title: str | None = None) -> str:
 
 # Goal: Use Literal["UP", "DOWN"].
 
-#
