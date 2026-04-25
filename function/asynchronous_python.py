@@ -49,5 +49,6 @@ async def task_B():
     asyncio.sleep(2)
     print("B done")
 
-
+async def main():
+     
 
