@@ -16,6 +16,8 @@ print(new_list)
 # 3. Vowel Stripper
 # Given a string text = "Hello World", create a list of all characters in the string that are not vowels (ignore case).
 
+
+
 # 🟡 Level 2: Dictionary Comprehensions
 # 4. Price Mapper
 # Given a list of products products = ["Apple", "Banana", "Cherry"] and their prices prices = [1.2, 0.5, 2.5], create a dictionary where the product is the key and the price is the value.
